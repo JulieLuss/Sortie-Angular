@@ -8,13 +8,13 @@ import { ApiEniSortirService } from 'src/Services/api-eni-sortir.service';
   styleUrls: ['./corps.component.css']
 })
 export class CorpsComponent implements OnInit {
-  villeDeMySql: TestModel = new TestModel;
+  /*villeDeMySql: TestModel = new TestModel;
   public ville: TestModel= new TestModel('salut', '1234');
-  constructor(private apiService: ApiEniSortirService) { }
+  constructor(private apiService: ApiEniSortirService) { }*/
 
   ngOnInit(){
-    this.apiService.testGet().subscribe(value => this.villeDeMySql=value);
-    this.apiService.testPost(this.ville).subscribe();  
+    /*this.apiService.testGet().subscribe(value => this.villeDeMySql=value);
+    this.apiService.testPost(this.ville).subscribe();  */
       
   }
 
